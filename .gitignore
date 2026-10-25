@@ -1,0 +1,25 @@
+# --- Copyrighted / private data: never commit ---
+data/private/*
+!data/private/.gitkeep
+*news*.csv
+*nishati*.csv
+
+# --- Generated outputs (recreate by running the notebook) ---
+outputs/*
+!outputs/.gitkeep
+
+# --- Python / Jupyter ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# --- Editors and OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
